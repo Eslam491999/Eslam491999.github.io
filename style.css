@@ -214,7 +214,7 @@ footer form button {
 }
 
 footer form button:hover {
-  background: linear-gradient(135deg, #1E90FF, #4FACFE);
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
 }
 
 /* Focus States for Accessibility */
