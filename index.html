@@ -15,49 +15,63 @@
   </header>
   <section class="team-grid">
     <div class="team-card">
-      <img src="ceo.jpg" alt="CEO">
+      <img src="ceo.jpg" alt="CEO" loading="lazy">
       <h3>John Doe</h3>
-      <p>CEO</p>
+      <p class="position">CEO</p>
       <p>Leading the vision of TeamWorks</p>
     </div>
     <div class="team-card">
-      <img src="cto.png" alt="CTO">
+      <img src="cto.png" alt="CTO" loading="lazy">
       <h3>Jane Smith</h3>
-      <p>CTO</p>
+      <p class="position">CTO</p>
       <p>Driving technical excellence</p>
     </div>
     <div class="team-card">
-      <img src="designer.png" alt="Designer">
+      <img src="designer.png" alt="Designer" loading="lazy">
       <h3>Emily Johnson</h3>
-      <p>Designer</p>
+      <p class="position">Designer</p>
       <p>Creating user-centric designs</p>
     </div>
   </section>
+
   <section class="values-section">
     <h2>Our Values</h2>
+    <p>We believe in the principles that shape our vision and guide our journey.</p>
     <div class="values-grid">
       <div class="value-item">
-        <img src="innovation.jpg" alt="Innovation">
-        <p>Innovation</p>
+        <div class="value-icon">
+          <img src="innovation.jpg" alt="Innovation" loading="lazy">
+        </div>
+        <h3>Innovation</h3>
+        <p>Pushing boundaries to create new possibilities.</p>
       </div>
       <div class="value-item">
-        <img src="integrity.png" alt="Integrity">
-        <p>Integrity</p>
+        <div class="value-icon">
+          <img src="integrity.png" alt="Integrity" loading="lazy">
+        </div>
+        <h3>Integrity</h3>
+        <p>Upholding honesty and strong moral principles.</p>
       </div>
       <div class="value-item">
-        <img src="teamwork.jpg" alt="Teamwork">
-        <p>Teamwork</p>
+        <div class="value-icon">
+          <img src="teamwork.jpg" alt="Teamwork" loading="lazy">
+        </div>
+        <h3>Teamwork</h3>
+        <p>Collaborating to achieve shared goals.</p>
       </div>
     </div>
   </section>
+
   <footer>
     <h2>Contact Us</h2>
     <form action="#" method="post">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
       <button type="submit">Submit</button>
     </form>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
