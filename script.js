@@ -9,3 +9,10 @@ document.addEventListener('scroll', function () {
     valuesSection.classList.add('fade-in');
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector("form");
+  if (form) {
+    form.reset();  // Resets the form data on page load
+  }
+});
